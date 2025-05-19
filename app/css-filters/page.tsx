@@ -30,6 +30,26 @@ const CssFilters = () => {
             <h2>Filter: grayScale(100%)</h2>
             <Image src={nature} width={1000} height={1000} alt='Nature' className='w-2xl rounded-2xl grayscale-100'></Image>
         </div>
+        <div>
+            <h2>Filter: hueRotate(180deg)</h2>
+            <Image src={nature} width={1000} height={1000} alt='Nature' className='w-2xl rounded-2xl hue-rotate-180'></Image>
+        </div>
+        <div>
+            <h2>Filter: invert(75%)</h2>
+            <Image src={nature} width={1000} height={1000} alt='Nature' className='w-2xl rounded-2xl invert-75'></Image>
+        </div>
+        <div>
+            <h2>Filter: opacity(25%)</h2>
+            <Image src={nature} width={1000} height={1000} alt='Nature' className='w-2xl rounded-2xl opacity-25'></Image>
+        </div>
+        <div>
+            <h2>Filter: saturate(200%)</h2>
+            <Image src={nature} width={1000} height={1000} alt='Nature' className='w-2xl rounded-2xl saturate-200'></Image>
+        </div>
+        <div>
+            <h2>Filter: sepia(100%)</h2>
+            <Image src={nature} width={1000} height={1000} alt='Nature' className='w-2xl rounded-2xl sepia-100'></Image>
+        </div>
     </div>
   )
 }
