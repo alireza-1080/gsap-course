@@ -10,6 +10,9 @@ const HomePage = () => {
       <button className="px-6 py-3 bg-blue-500 rounded-lg">
         <Link href="/css-transition">CSS Transition</Link>
       </button>
+      <button className="px-6 py-3 bg-blue-500 rounded-lg">
+        <Link href="/css-transform-2d">Transform 2D</Link>
+      </button>
     </div>
   )
 }
