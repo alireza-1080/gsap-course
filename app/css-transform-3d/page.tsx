@@ -44,6 +44,30 @@ const CssTransform3d = () => {
           Normal div element
         </div>
       </div>
+      <div className='perspective-midrange'>
+        <h2>Hover: Scale X 200%</h2>
+        <div className="h-fit w-fit border-4 border-blue-500 bg-gray-900 p-10 duration-500 hover:scale-x-200">
+          Normal div element
+        </div>
+      </div>
+      <div className='perspective-midrange'>
+        <h2>Hover: Scale Y 200%</h2>
+        <div className="h-fit w-fit border-4 border-blue-500 bg-gray-900 p-10 duration-500 hover:scale-y-200">
+          Normal div element
+        </div>
+      </div>
+      <div className='perspective-midrange'>
+        <h2>Hover: Scale Z 300%</h2>
+        <div className="h-fit w-fit border-4 border-blue-500 bg-gray-900 p-10 duration-500 hover:scale-z-[300%] hover:rotate-y-45">
+          Normal div element
+        </div>
+      </div>
+      <div className='perspective-midrange'>
+        <h2>Hover: Scale X Y Z 200%</h2>
+        <div className="h-fit w-fit border-4 border-blue-500 bg-gray-900 p-10 duration-500 hover:scale-z-200 hover:scale-y-200 hover:scale-x-200 hover:rotate-y-45">
+          Normal div element
+        </div>
+      </div>
     </div>
   );
 };
